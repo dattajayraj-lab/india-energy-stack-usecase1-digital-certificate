@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "deg":    "https://schema.nfh.global/deg#",
+    "xsd":    "http://www.w3.org/2001/XMLSchema#",
+    "schema": "https://schema.org/",
+    "beckn":  "https://schema.nfh.global/",
+
+    "CustomerDetails": { "@id": "deg:CustomerDetails" },
+
+    "fullName":             { "@id": "schema:name",                  "@type": "xsd:string"   },
+    "serviceConnectionDate":{ "@id": "deg:serviceConnectionDate",    "@type": "xsd:dateTime" },
+
+    "careOf": {
+      "@id": "deg:careOf",
+      "@context": {
+        "name":         { "@id": "schema:name",      "@type": "xsd:string" },
+        "relationship": { "@id": "deg:relationship", "@type": "xsd:string" }
+      }
+    },
+
+    "installationAddress": {
+      "@id": "beckn:Location",
+      "@type": "@id",
+      "@context": {
+        "geo": {
+          "@id": "beckn:geo",
+          "@type": "@id",
+          "@context": {
+            "type":        { "@id": "beckn:geoType",     "@type": "xsd:string" },
+            "coordinates": { "@id": "beckn:coordinates", "@container": "@list" },
+            "bbox":        { "@id": "beckn:bbox",        "@container": "@list" },
+            "geometries":  { "@id": "beckn:geometries",  "@container": "@list" }
+          }
+        },
+        "address": {
+          "@id": "beckn:address",
+          "@type": "@id",
+          "@context": {
+            "streetAddress":   { "@id": "beckn:streetAddress",   "@type": "xsd:string" },
+            "extendedAddress": { "@id": "beckn:extendedAddress", "@type": "xsd:string" },
+            "addressLocality": { "@id": "beckn:addressLocality", "@type": "xsd:string" },
+            "addressRegion":   { "@id": "beckn:addressRegion",   "@type": "xsd:string" },
+            "addressCountry":  { "@id": "beckn:addressCountry",  "@type": "xsd:string" },
+            "postalCode":      { "@id": "beckn:postalCode",      "@type": "xsd:string" }
+          }
+        }
+      }
+    }
+  }
+}

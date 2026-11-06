@@ -1,0 +1,30 @@
+# Secrets - signing keys and env files must never enter source control
+.secrets/
+*.pem
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Local data
+*.db
+*.db-shm
+*.db-wal
+
+# Node
+node_modules/
+.next/
+out/
+web/test-results/
+web/playwright-report/
+
+# Internal planning documents
+assets/*.docx

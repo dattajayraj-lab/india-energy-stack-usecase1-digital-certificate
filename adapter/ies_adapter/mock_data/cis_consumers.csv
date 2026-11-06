@@ -1,0 +1,7 @@
+CA_NUMBER,CUST_NAME,MOBILE,ADDR_LINE,CITY,STATE,PINCODE,LAT,LON,CONN_DATE,SERVICE_CONN_NO,TARIFF_CAT,SANC_LOAD_KW,CONTRACT_DEMAND_KW,SANC_EXPORT_KW,PREMISES,PHASE,PAY_MODE,CONN_STATUS,BILL_DAY
+1100000001,Lakshmi Naidu,9000000001,"Shop 7, Dwaraka Nagar",Visakhapatnam,Andhra Pradesh,530016,17.7261,83.3050,2021-03-15,SC-VSP-0001,LT2A,8,6,5,Commercial,Three-phase,POSTPAID,active,5
+1100000002,Rohan Iyer,9000000002,"22 MVP Colony",Visakhapatnam,Andhra Pradesh,530017,17.7406,83.3361,2019-11-02,SC-VSP-0002,LT1A,10,8,6,Residential,Three-phase,POSTPAID,active,12
+1100000003,Meena Pillai,9000000003,"4 Gajuwaka Main Road",Visakhapatnam,Andhra Pradesh,530026,17.6868,83.2185,2016-07-21,SC-VSP-0003,LT1A,3,,,Residential,Single-phase,PREPAID,active,20
+1100000004,Arjun Rao,9000000004,"9 Seethammadhara",Visakhapatnam,Andhra Pradesh,530013,17.7421,83.3137,2018-01-09,SC-VSP-0004,LT1A,,,,Residential,Single-phase,POSTPAID,active,8
+1100000005,Farida Khan,9000000005,"31 Madhurawada",Visakhapatnam,Andhra Pradesh,530048,17.8166,83.3540,2022-05-30,SC-VSP-0005,LT1A,5,4,3,Residential,Single-phase,POSTPAID,active,15
+1100000006,Suresh Babu,9000000006,"18 Pendurthi",Visakhapatnam,Andhra Pradesh,531173,17.8100,83.2000,2020-09-12,SC-VSP-0006,LT1A,4,,,Residential,Single-phase,POSTPAID,active,3

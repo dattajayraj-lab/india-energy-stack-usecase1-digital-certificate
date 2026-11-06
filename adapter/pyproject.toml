@@ -1,0 +1,16 @@
+[project]
+name = "ies-adapter"
+version = "0.1.0"
+description = "Part-2 mapping between DISCOM source systems and IES ElectricityCredential v1.2"
+requires-python = ">=3.12"
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["ies_adapter*"]
+
+[tool.setuptools.package-data]
+ies_adapter = ["mock_data/*.csv"]

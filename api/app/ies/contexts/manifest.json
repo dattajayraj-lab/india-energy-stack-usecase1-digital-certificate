@@ -1,0 +1,5 @@
+{
+  "https://schema.nfh.global/CustomerDetails/v1.0/context.jsonld": "schema.nfh.global_CustomerDetails_v1.0_context.jsonld",
+  "https://schema.nfh.global/MeterServiceProfile/v1.1/context.jsonld": "schema.nfh.global_MeterServiceProfile_v1.1_context.jsonld",
+  "https://schema.nfh.global/EnergyResource/v2.1/context.jsonld": "schema.nfh.global_EnergyResource_v2.1_context.jsonld"
+}
